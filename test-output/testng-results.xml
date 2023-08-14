@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[close the brouser ]]>
+    </line>
+    <line>
+      <![CDATA[inside test3 32]]>
+    </line>
+    <line>
+      <![CDATA[inside test3 32]]>
+    </line>
+    <line>
+      <![CDATA[inside test4 32]]>
+    </line>
+    <line>
+      <![CDATA[launch the brouser ]]>
+    </line>
+    <line>
+      <![CDATA[inside test3 33]]>
+    </line>
+    <line>
+      <![CDATA[launch the brouser ]]>
+    </line>
+    <line>
+      <![CDATA[inside test3 33]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-26T12:51:16 IST" name="seleniumAutomation" finished-at="2023-07-26T12:51:37 IST" duration-ms="21583">
+    <groups>
+    </groups>
+    <test started-at="2023-07-26T12:51:16 IST" name="chrome Test" finished-at="2023-07-26T12:51:37 IST" duration-ms="21583">
+      <class name="tests.LaunchTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LaunchTest@36fc695d]" started-at="2023-07-26T12:50:38 IST" name="setup" finished-at="2023-07-26T12:51:16 IST" duration-ms="37527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchBrouser()[pri:0, instance:tests.LaunchTest@36fc695d]" started-at="2023-07-26T12:51:16 IST" name="launchBrouser" finished-at="2023-07-26T12:51:28 IST" duration-ms="11793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrouser -->
+        <test-method signature="closeBrowser()[pri:0, instance:tests.LaunchTest@36fc695d]" started-at="2023-07-26T12:51:28 IST" name="closeBrowser" finished-at="2023-07-26T12:51:29 IST" duration-ms="949" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close the brouser ]]>
+            </line>
+            <line>
+              <![CDATA[inside test3 32]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="test3()[pri:0, instance:tests.LaunchTest@36fc695d]" started-at="2023-07-26T12:51:29 IST" name="test3" finished-at="2023-07-26T12:51:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[inside test3 32]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:tests.LaunchTest@36fc695d]" started-at="2023-07-26T12:51:29 IST" name="test4" finished-at="2023-07-26T12:51:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[inside test4 32]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="launch(java.lang.String,java.lang.String)[pri:0, instance:tests.LaunchTest@36fc695d]" started-at="2023-07-26T12:51:35 IST" name="launch" data-provider="loginData" finished-at="2023-07-26T12:51:35 IST" duration-ms="212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[launch the brouser ]]>
+            </line>
+            <line>
+              <![CDATA[inside test3 33]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="launch(java.lang.String,java.lang.String)[pri:0, instance:tests.LaunchTest@36fc695d]" started-at="2023-07-26T12:51:35 IST" name="launch" data-provider="loginData" finished-at="2023-07-26T12:51:35 IST" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[launch the brouser ]]>
+            </line>
+            <line>
+              <![CDATA[inside test3 33]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LaunchTest@36fc695d]" started-at="2023-07-26T12:51:35 IST" name="tearDown" finished-at="2023-07-26T12:51:37 IST" duration-ms="2043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LaunchTest -->
+    </test> <!-- chrome Test -->
+  </suite> <!-- seleniumAutomation -->
+</testng-results>

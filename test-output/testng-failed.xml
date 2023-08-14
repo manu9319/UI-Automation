@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [seleniumAutomation]">
+  <listeners>
+    <listener class-name="utilities.TestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="chrome Test(failed)">
+    <parameter name="brouser" value="chrome"/>
+    <classes>
+      <class name="tests.LaunchTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="launch" invocation-numbers="0 1"/>
+          <include name="launchBrouser"/>
+        </methods>
+      </class> <!-- tests.LaunchTest -->
+    </classes>
+  </test> <!-- chrome Test(failed) -->
+</suite> <!-- Failed suite [seleniumAutomation] -->

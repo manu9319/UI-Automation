@@ -1,0 +1,143 @@
+<html>
+<head>
+<title>TestNG:  chrome Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>chrome Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 26 12:51:16 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>21 seconds (21583 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.LaunchTest.launch()'><b>launch</b><br>Test class: tests.LaunchTest<br>Parameters: null, null<br/>
+<a href="#Output-502833752" onClick='toggleBox("Output-502833752", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-502833752" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-502833752">
+launch the brouser <br/>
+inside test3 33<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.LaunchTest@36fc695d</td></tr>
+<tr>
+<td title='tests.LaunchTest.closeBrowser()'><b>closeBrowser</b><br>Test class: tests.LaunchTest<br/>
+<a href="#Output-1193728375" onClick='toggleBox("Output-1193728375", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1193728375" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1193728375">
+close the brouser <br/>
+inside test3 32<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.LaunchTest@36fc695d</td></tr>
+<tr>
+<td title='tests.LaunchTest.test3()'><b>test3</b><br>Test class: tests.LaunchTest<br/>
+<a href="#Output-2132942400" onClick='toggleBox("Output-2132942400", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2132942400" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2132942400">
+inside test3 32<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.LaunchTest@36fc695d</td></tr>
+<tr>
+<td title='tests.LaunchTest.test4()'><b>test4</b><br>Test class: tests.LaunchTest<br/>
+<a href="#Output-1560604179" onClick='toggleBox("Output-1560604179", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1560604179" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1560604179">
+inside test4 32<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.LaunchTest@36fc695d</td></tr>
+<tr>
+<td title='tests.LaunchTest.launch()'><b>launch</b><br>Test class: tests.LaunchTest<br>Parameters: root, root<br/>
+<a href="#Output-1997439881" onClick='toggleBox("Output-1997439881", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1997439881" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1997439881">
+launch the brouser <br/>
+inside test3 33<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.LaunchTest@36fc695d</td></tr>
+</table><p>
+</body>
+</html>

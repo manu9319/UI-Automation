@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "seleniumAutomation" parallel ="methods" thread-count="2">
+
+ <listeners>
+  <listener class-name="utilities.TestNGListener" />
+ </listeners>
+
+ <test name = "chrome Test">
+<parameter name = "brouser" value = "chrome"/>
+
+<classes>
+
+<class name = "tests.LoginTest"/>
+<class name = "tests.LaunchTest"/>
+
+</classes>
+
+</test>
+
+</suite>
